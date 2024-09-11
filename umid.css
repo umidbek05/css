@@ -1,0 +1,319 @@
+/* 
+.filter-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 130px;
+  }
+  
+  .filter-box img {
+    width: 300px;
+    height: 270px;
+  }
+
+.blur{
+    filter: blur(10px);
+}
+
+.brightness{
+    filter: brightness(10);
+}
+
+.contrast{
+    filter: contrast(10);
+}
+
+.saturate{
+    filter: saturate(20);
+}
+
+.grayscale{
+    filter: grayscale(20);
+}
+
+.opacity{
+    filter: opacity(30%);
+}
+
+.blur:hover{
+    filter: blur(0px);
+    transition: 2s;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: #171717;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+nav h1{
+    font-size: 40px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+.banner{
+   display: flex;
+   align-items: center;
+   gap: 120px;
+}
+
+.banner .text{
+    padding-top: 320px;
+    padding-left: 128px;
+}
+
+.banner .text h1{
+    font-size: 48px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.banner .text p{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #828282;
+    font-family: "Lato", sans-serif;
+}
+
+.banner .text .button{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner .text .button .b1{
+    width: 143px;
+    height: 42px;
+    background-color: #27AE60;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.banner .text .button .b2{
+    width: 143px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid #F2F2F2;
+    font-size: 14px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.banner .img img{
+    margin-top: 150px;
+    border-radius: 300px;
+    border: 30px solid rgba(128, 128, 128, 0.103);
+}
+
+.banner1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.banner1 h1{
+    font-size:48px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.banner1 p{
+    font-size: 18px;
+    color: white;
+    margin-top: 38px;
+    font-family: "Lato", sans-serif;
+}
+
+.banner2{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 107px
+}
+
+.banner3{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner3 .card{
+    display: flex;
+    margin-top: 102.63px;
+    gap: 60px;
+}
+.banner3 h1{
+    font-size: 48px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.banner3 .card5{
+    width: 349px;
+    height: 241px;
+    background-color: #212121;
+}
+
+.banner3 .card6{
+    width: 349px;
+    height: 241px;
+    background-color: #212121;
+}
+
+.banner3 .card7{
+    width: 349px;
+    height: 241px;
+    background-color: #212121;
+}
+
+.banner3 .container img{
+    /* padding: 34.86px 50px; */
+    margin-top: 34.86px;
+    margin-left: 50px;
+}
+
+.banner3 .span{
+    padding-left: 50px;
+    color: #535353;
+    font-size: 36px;
+    margin-top: 29.67px;
+    font-family: "Lato", sans-serif;
+}
+
+.banner4{
+    margin-top: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner4 h1{
+    font-size: 48px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.banner4 .cardd{
+    width: 1168px;
+    height: 235px;
+    background-color: #212121;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    text-align: center;
+}
+
+.banner4 .container h1{
+    font-size: 72px;
+    color: #4F4F4F;
+    font-family: "Lato", sans-serif;
+}
+
+.banner4 .container p{
+    font-size: 24px;
+    color: #27AE60;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+.banner5 h1{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 48px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 82px;
+}
+
+.input1{
+    display: flex;
+    gap: 37px;
+}
+
+.input1 input{
+    border: none;
+    color: white;
+    background-color: transparent;
+    width: 358px;   
+}
+
+.input2{
+    display: flex;
+    gap: 37px;
+}
+
+.input2 input{
+    color: white;
+    background-color: transparent;
+    width: 358px; 
+    border: none;  
+    margin-top: 47px;
+}
+
+.message input{
+    width: 750px;
+    height: 109px;
+    margin-top: 47px;
+    background-color: transparent;
+    border: 1px solid #4F4F4F;
+    color: white;
+}
+
+form button{
+    width: 143px;
+    height: 42px;
+    background-color: #27AE60;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    margin-top: 29px;
+}
